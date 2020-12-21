@@ -33,4 +33,4 @@ def hmlasso(X, y, family="gaussian", impl="cpp",
         # na.rm nanを無視した計算を行う
         X_mean = X.mean(axis = 0, skipna = True)
         X_sd = cal_sd(X)
-        
+        X_tilde_alpha = 
